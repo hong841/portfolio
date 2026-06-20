@@ -1,0 +1,597 @@
+@charset "utf-8";
+
+@import url(reset.css);
+
+header {
+    width: 100%;
+    height: 150px;
+    position: fixed;
+    background: #c99595;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+header .title {
+    height: 100px;
+    position: absolute;
+    left: 7.778%;
+    right: 7.778%;
+    /* background: #eee; */
+    top: 25px;
+}
+
+header .title .name {
+    font-size: 40px;
+    position: absolute;
+    left: 0;
+    letter-spacing: -2px;
+}
+
+header .title .port_01 {
+    font-size: 40px;
+    position: absolute;
+    right: 0;
+    top: 50px;
+    letter-spacing: -2px;
+}
+
+.main {
+    width: 100%;
+    margin-top: 300px;
+}
+
+
+.portfolio {
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.project-card {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* big_issue */
+.project-card .big_issue {
+    width: 250px;
+    margin: 0 auto;
+    outline: 5px solid transparent; 
+    transition: all 0.3s;
+}
+
+.project-card .big_issue:hover {
+    outline: 5px solid #765a54;
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    transition: all 0.3s;
+}
+
+/* smoothie king */
+.project-card .smoothie_king {
+    width: 250px;
+    margin: 0 auto;
+    outline: 5px solid transparent; 
+    transition: all 0.3s;
+}
+
+.project-card .smoothie_king:hover {
+    outline: 5px solid #765a54;
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    transition: all 0.3s;
+}
+
+/* aesop */
+.project-card .aesop {
+    width: 250px;
+    margin: 0 auto;
+    outline: 5px solid transparent;
+    transition: all 0.3s;
+}
+
+.project-card .aesop:hover {
+    outline: 5px solid #765a54;
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    transition: all 0.3s;
+}
+
+
+.project-card a>img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.project_txt {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.project_txt h2 {
+    font-family: "Noto Serif", serif;
+    font-size: 28px;
+}
+
+.project_txt h3 {
+    font-family: "Noto Serif", serif;
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.project_txt p {
+    font-size: 18px;
+    font-family: "Noto Sans", sans-serif;
+    margin-top: 20px;
+}
+
+.project_txt .project_btn {
+    width: 180px;
+    height: 50px;
+    border: 1px solid #ddd;
+    background: #ddd;
+    position: relative;
+    left: 0;
+    top: 30px;
+    display: block;
+    margin: 0 auto;
+    z-index: 1;
+    font-family: "Noto Serif", serif;
+    font-weight: 500;
+    line-height: 50px;
+    color: #333;
+}
+
+.project_txt .project_btn:hover {
+    background: #765a54;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+
+/* footer */
+
+footer {
+    width: 100%;
+    padding: 60px 0;
+    margin-top: 60px;
+    background: #c4bdbd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.thanks {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.info_box {
+    background: #fff;
+    padding: 20px 40px;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+.info_box p {
+    margin: 5px 0;
+    color: #333;
+    font-family: "Noto Sans", sans-serif;
+}
+
+
+
+@media all and (min-width:768px) {
+
+header {
+    width: 100%;
+    height: 200px;
+    position: fixed;
+    background: #c99595;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+header .title {
+    height: 100px;
+    position: absolute;
+    left: 7.778%;
+    right: 7.778%;
+    /* background: #eee; */
+    top: 25px;
+}
+
+header .title .name {
+    font-size: 50px;
+    position: absolute;
+    left: 0;
+    letter-spacing: -2px;
+}
+
+header .title .port_01 {
+    font-size: 50px;
+    position: absolute;
+    right: 0;
+    top: 70px;
+    letter-spacing: -2px;
+}
+
+.main {
+    width: 100%;
+    margin-top: 300px;
+}
+
+.portfolio {
+    width: 100%;
+    height: 600px;
+    margin: 0 auto 60px auto;
+}
+
+.project-card {
+    width: 100%;
+    padding: 50px 0 50px 0;
+}
+
+/* big_issue */
+.project-card .big_issue {
+    width: 400px;
+    margin: 0 auto;
+    outline: 5px solid transparent; 
+    transition: all 0.3s;
+}
+
+.project-card .big_issue:hover {
+    outline: 5px solid #765a54;
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    transition: all 0.3s;
+}
+
+/* smoothie king */
+.project-card .smoothie_king {
+    width: 400px;
+    margin: 0 auto;
+    outline: 5px solid transparent;
+    transition: all 0.3s;
+}
+
+.project-card .smoothie_king:hover {
+    outline: 5px solid #765a54;
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* aesop */
+.project-card .aesop {
+    width: 400px;
+    margin: 0 auto;
+    outline: 5px solid transparent; 
+    transition: all 0.3s;
+}
+
+.project-card .aesop:hover {
+    outline: 5px solid #765a54;
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    transition: all 0.3s;
+}
+
+
+.project-card a>img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.project_txt {
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.project_txt h2 {
+    font-family: "Noto Serif", serif;
+    font-size: 30px;
+}
+
+.project_txt h3 {
+    font-family: "Noto Serif", serif;
+    font-size: 24px;
+    margin-top: 15px;
+}
+
+.project_txt p {
+    font-size: 20px;
+    font-family: "Noto Sans", sans-serif;
+    margin-top: 20px;
+}
+
+.project_txt .project_btn {
+    width: 200px;
+    height: 55px;
+    border: 1px solid #ddd;
+    background: #ddd;
+    position: relative;
+    left: 0;
+    top: 30px;
+    display: block;
+    margin: 0 auto;
+    z-index: 1;
+    font-family: "Noto Serif", serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 55px;
+    color: #333;
+}
+
+.project_txt .project_btn:hover {
+    background: #765a54;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+
+/* footer */
+
+footer {
+    width: 100%;
+    padding: 60px 0;
+    margin-top: 100px;
+    background: #c4bdbd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.thanks {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.info_box {
+    background: #fff;
+    padding: 20px 40px;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+.info_box p {
+    margin: 10px 0;
+    color: #333;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 20px;
+}
+
+}
+
+@media all and (min-width:1024px) {
+
+    header {
+    width: 100%;
+    height: 200px;
+    position: fixed;
+    background: #c99595;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+header .title {
+   width: 88.541%;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    /* background: #eee; */
+    top: 25px;
+}
+
+header .title .name {
+    font-size: 50px;
+    position: absolute;
+    left: 0;
+    letter-spacing: -2px;
+}
+
+header .title .port_01 {
+    font-size: 50px;
+    position: absolute;
+    right: 0;
+    top: 70px;
+    letter-spacing: -2px;
+}
+
+.main {
+    width: 88.541%;
+    max-width: 1400px;
+    margin: 300px auto 0 auto;
+    height: 650px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    
+}
+
+.portfolio {
+    width: 30%;
+    margin: 0;
+    background-color: #fff;
+}
+
+.portfolio:first-child {
+    
+}
+
+.portfolio:nth-child(2) {
+   
+}
+
+.portfolio:last-child {
+    
+}
+
+.project-card {
+    width: 100%;
+    padding: 50px 0 50px 0;
+}
+
+/* big_issue */
+.project-card .big_issue {
+    width: 80%;
+    margin: 0 auto;
+    outline: 5px solid transparent; 
+    transition: all 0.3s;
+}
+
+.project-card .big_issue:hover {
+    outline: 5px solid #765a54;
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* smoothie king */
+.project-card .smoothie_king {
+    width: 80%;
+    margin: 0 auto;
+    outline: 5px solid transparent; 
+    transition: all 0.3s;
+}
+
+.project-card .smoothie_king:hover {
+    outline: 5px solid #765a54;
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    transition: all 0.3s;
+}
+
+/* aesop */
+.project-card .aesop {
+    width: 80%;
+    margin: 0 auto;
+    outline: 5px solid transparent; 
+    transition: all 0.3s;
+}
+
+.project-card .aesop:hover {
+    outline: 5px solid #765a54;
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    transition: all 0.3s;
+}
+
+
+.project-card a>img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.project_txt {
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.project_txt h2 {
+    font-family: "Noto Serif", serif;
+    font-size: 30px;
+}
+
+.project_txt h3 {
+    font-family: "Noto Serif", serif;
+    font-size: 24px;
+    margin-top: 15px;
+}
+
+.project_txt p {
+    font-size: 20px;
+    font-family: "Noto Sans", sans-serif;
+    margin-top: 20px;
+}
+
+.project_txt .project_btn {
+    width: 200px;
+    height: 55px;
+    border: 1px solid #ddd;
+    background: #ddd;
+    position: relative;
+    left: 0;
+    top: 30px;
+    display: block;
+    margin: 0 auto;
+    z-index: 1;
+    font-family: "Noto Serif", serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 55px;
+    color: #333;
+}
+
+.project_txt .project_btn:hover {
+    background: #765a54;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+
+/* footer */
+
+footer {
+    width: 100%;
+    padding: 60px 0;
+    margin-top: 100px;
+    background: #c4bdbd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.thanks {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.info_box {
+    background: #fff;
+    padding: 20px 40px;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+.info_box p {
+    margin: 10px 0;
+    color: #333;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 20px;
+}
+
+}
